@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/ 
+downloaded_images/
+image-urls.csv
