@@ -12,7 +12,7 @@ const main = async () => {
   // Count total files downloaded
   const totalFiles = await getFilesInTheFolder(DOWNLOADED_FOLDER)
   const numberOfTotalFiles = totalFiles.length
-  console.log(`\nTotal number of files in the ${DOWNLOADED_FOLDER} folder: ${numberOfTotalFiles}`)
+  console.log(`Total number of files in the ${DOWNLOADED_FOLDER} folder: ${numberOfTotalFiles}`)
 
   // Check for files that has size exceeding limits
   await checkForFilesExceedingLimit(totalFiles, DOWNLOADED_FOLDER, 512)
